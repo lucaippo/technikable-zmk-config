@@ -98,7 +98,7 @@
                       &trans     &trans      &trans            &trans              &trans      &trans     &trans
 #else
                       &trans     &trans      &trans       &trans      &trans       &trans      &trans     &trans
-#endifk
+#endif
             >;
         };
 
