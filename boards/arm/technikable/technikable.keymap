@@ -91,7 +91,7 @@
             bindings = <
 &trans     &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_N4    &kp KP_N5   &kp KP_N6    &kp KP_N7   &kp KP_N8  &kp KP_N9    &kp KP_N0  &trans
 &trans     &kp EXCL   &kp AT     &kp HASH    &kp DLLR     &kp PRCNT   &kp CARET    &kp AMPS    &kp ASTRK  &kp LPAR     &kp RPAR   &kp GRAVE
-&trans     &trans     &trans     &trans      &trans       &trans      &kp MINUS    &kp EQUAL   &kp LBKT   &kp RBKT     &trans     &trans
+&trans     &trans     &trans     &trans      &trans       &trans      &kp MINUS    &kp EQUAL   &kp LBKT   &kp RBKT     &kp BSLH   &trans
 #ifdef TBLE_DUAL_2U
                       &trans     &trans             &trans                 &trans              &trans     &trans
 #elif defined(TBLE_MIT)
@@ -107,7 +107,7 @@
             bindings = <
 &kp F12    &kp F1     &kp F2     &kp F3      &kp F4     &kp F5     &kp F6     &kp F7    &kp F8       &kp F9       &kp F10    &kp F11
 &trans     &trans     &trans     &trans      &trans     &trans     &trans     &trans    &trans       &trans       &trans     &trans
-&bt BT_CLR &bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)  &bt BT(4)  &trans     &trans    &trans       &trans       &trans     &trans
+&bt BT_CLR &bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)  &bt BT(4)  &trans     &trans    &trans       &trans       &kp PIPE   &trans
 #ifdef TBLE_DUAL_2U
                       &trans     &trans              &trans             &trans          &trans       &trans
 #elif defined(TBLE_MIT)
